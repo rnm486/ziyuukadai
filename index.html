@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Excel関数まとめ</title>
+</head>
+<body>
+ <header>
+  <h1>Excelのよく使う関数まとめ</h1>
+ <img src="Excel.jpeg"width=640px height="480px">
+ </header>
+ <strong>E</strong>xcelを使ったことがある人ならば関数を使ったことがあると思います。
+ <br /><br />
+ 主に使う関数をまとめてみたので参考に。
+   <table border="4" rules="all">
+    <tr>
+      <th><a href="#SUM">SUM</a></th>
+      <td>選択したセルの数値の合計を返す</td>
+    </tr>
+    <tr>
+      <th><a href="#PRODUCT">PRODUCT</th>
+      <td>選択したセルの数値の掛け算の値を返す</td>
+    </tr>
+    <tr>
+      <th><a href="#MAX">MAX</th>
+      <td>最大値を返す</td>
+    </tr>
+    <tr>
+      <th><a href="#MIN">MIN</th>
+      <td>最小値を返す</td>
+    </tr>
+    <tr>
+      <th><a href="#AVERAGE">AVERAGE</th>
+      <td>選択したセルの平均値を返す</td>
+    </tr>
+    <tr>
+      <th><a href="#IF">IF</th>
+      <td>条件分岐をつける</td>
+    </tr>
+    <tr>
+      <th><a href="#ROUND">ROUND</th>
+      <td>指定した小数点以下を四捨五入する</td>
+    </tr>
+   </table>
+   <hr />
+   ここからはそれぞれの関数がどのようなものなのか解説します。
+ <h3 id=SUM>SUM</h3> 
+ SUM関数は指定したセルの数値の合計値を返します。
+ <br />
+ ここでは「600」という結果になります。
+ <br />
+ <img src="sum.png"width="480px">
+ <br />
+ <h3 id="PRODUCT">PRODUCT</h3>
+ PRODUCT関数は指定したセルの掛け算の値を返します。
+ <br />
+ ここでは「6000000」という結果になります。
+ <br />
+ <img src="product.png"width="480px">
+ <h3 id="MAX">MAX</h3>
+ MAX関数は指定したセルの中の最大値を返します。
+ <br />
+ ここでは「300」という結果になります。
+ <br />
+ <img src="max.png"width="480px">
+ <h3 id="MIN">MIN</h3>
+ MIN関数は指定したセルの中の最小値を返します。
+ <br />
+ ここでは「100」という結果になります。
+ <img src="min.png"width="480px">
+ <h3 id="AVERAGE">AVERAGE</h3>
+ AVERAGE関数は指定したセルの平均値を返します。
+ <br />
+ ここでは「200」という結果になります。
+ <br />
+ <img src="average.png"width="480px">
+ <h3 id="IF">IF</h3>
+ IF関数は条件を指定し、指定したセルがその条件に合うかを判断します。
+ <br />
+ ここでは「B列にある値が150以上であるか」という条件を指定し、正しいならば「TRUE」、間違っているなら「FALSE」を返すようにしました。
+ <img src="if.png"width="480px">
+ <h3 id="ROUND">ROUND</h3>
+ ROUND関数は指定した小数点以下を四捨五入します。
+ <br />
+ =round(セル,桁数)のように入力します。
+ <img src="round.png"width="480px">
+ <br />
+ B列にある数値をROUND関数で四捨五入したものがC列にある数値となります。
+ <br />
+ 小数点が続き、セルに収まらないときなどに便利です。
+ <br /><br /><hr />
+ どうでしたか？これを知っていればある程度の数式処理はできると思います。
+ <br />
+ ぜひ活用してみてください。
+</body>
+</html>
